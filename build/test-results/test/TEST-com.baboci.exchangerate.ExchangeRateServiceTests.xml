@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.baboci.exchangerate.ExchangeRateServiceTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2022-02-03T13:19:40" hostname="MUCN0807" time="0.517">
+  <properties/>
+  <testcase name="whenRetrievingSupportedCurrencies_thenReturnAllSupportedCurrencies()" classname="com.baboci.exchangerate.ExchangeRateServiceTests" time="0.337"/>
+  <testcase name="whenConvertAmount_thenReturnBadCurrencyError()" classname="com.baboci.exchangerate.ExchangeRateServiceTests" time="0.144"/>
+  <testcase name="whenParseCurrencyPair_thenReturnCurrencyPairObject()" classname="com.baboci.exchangerate.ExchangeRateServiceTests" time="0.002"/>
+  <testcase name="whenParseXml_thenReturnListOfReferenceRate()" classname="com.baboci.exchangerate.ExchangeRateServiceTests" time="0.001"/>
+  <testcase name="whenRequestingPublicChart_thenLinkOfPublicChartFromGoogle()" classname="com.baboci.exchangerate.ExchangeRateServiceTests" time="0.003"/>
+  <testcase name="whenGetReferenceRate_thenReturnHttpTimeoutException()" classname="com.baboci.exchangerate.ExchangeRateServiceTests" time="0.003"/>
+  <testcase name="whenGetReferenceRate_thenReturnRate()" classname="com.baboci.exchangerate.ExchangeRateServiceTests" time="0.002"/>
+  <testcase name="whenRequestingPublicChartWithWrongCurrencyPair_thenBadCurrencyRequestError()" classname="com.baboci.exchangerate.ExchangeRateServiceTests" time="0.002"/>
+  <testcase name="whenCalculateCrossRate_thenReturnCorrectCalculation()" classname="com.baboci.exchangerate.ExchangeRateServiceTests" time="0.001"/>
+  <testcase name="whenRequestingPublicChartWithUnsupportedCurrency_thenReturnUnsupportedCurrencyPairError()" classname="com.baboci.exchangerate.ExchangeRateServiceTests" time="0.002"/>
+  <testcase name="whenGetReferenceRate_thenReturnCurrencyNotFoundError()" classname="com.baboci.exchangerate.ExchangeRateServiceTests" time="0.003"/>
+  <testcase name="whenConvertAmount_thenReturnCurrencyNotFoundError()" classname="com.baboci.exchangerate.ExchangeRateServiceTests" time="0.002"/>
+  <testcase name="whenConvertAmount_thenConvertedAmount()" classname="com.baboci.exchangerate.ExchangeRateServiceTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.baboci.exchangerate.XmlParseTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-03T13:19:41" hostname="MUCN0807" time="0.002">
+  <properties/>
+  <testcase name="testXMLParse()" classname="com.baboci.exchangerate.XmlParseTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
